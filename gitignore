@@ -1,0 +1,45 @@
+# Outputs (generated at runtime)
+outputs/
+*.zip
+
+# Datasets (too large for git)
+datasets/
+ISIC_2019_Training_Input/
+HAM10000/
+PAD-UFES-20/
+
+# Model weights
+*.pt
+*.pth
+*.h5
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab / Drive
+drive/
+sample_data/
